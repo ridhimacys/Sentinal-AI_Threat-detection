@@ -1,0 +1,6 @@
+{
+  "name": "SENTINEL-AI",
+  "description": "Hackathon-ready social media intelligence platform analyzing sentiment, trends, audience behavior, cyber safety, and coordinated threat campaigns with explainable risk scoring.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
