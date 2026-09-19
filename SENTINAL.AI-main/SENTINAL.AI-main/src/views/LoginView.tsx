@@ -57,9 +57,9 @@ export const LoginView: React.FC<LoginViewProps> = ({
             }}
           >
             <img
-              src="/sentinel-shield.png"
+              src={`${import.meta.env.BASE_URL}sentinel-shield.png`}
               alt="Sentinel AI Logo"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
           </div>
           <div className="flex items-center gap-1.5 leading-none">
@@ -135,11 +135,5 @@ export const LoginView: React.FC<LoginViewProps> = ({
           </button>
         </div>
       </div>
-
-      {/* Login Footer line */}
-      <div className="py-4 text-center text-xs font-mono" style={{ color: "var(--text-muted)" }}>
-        Smart India Hackathon 2026 · Team Syntrix
-      </div>
-    </div>
   );
 };
