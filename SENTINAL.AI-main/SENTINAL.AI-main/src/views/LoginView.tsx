@@ -108,7 +108,7 @@ export const LoginView: React.FC<LoginViewProps> = ({
             <span>Enter Demo Workspace</span>
             <ArrowRight className="w-3.5 h-3.5" />
           </button>
-        </form>
+       
 
         {/* Demo environment note */}
         <div
@@ -137,3 +137,4 @@ export const LoginView: React.FC<LoginViewProps> = ({
       </div>
   );
 };
+ </form>
